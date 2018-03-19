@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="com.example.bellatrix.getcollege.Main2Activity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:layout_centerInParent="true">
+    <Button
+    android:id="@+id/button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:textColor="#ffffff"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:background="@drawable/something"
+    android:text="Login as Student"
+    />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:background="@drawable/something"
+            android:text="Login as Faculty"
+            />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="@drawable/something"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:textColor="#ffffff"
+        android:text="Register"
+        /></LinearLayout>
+
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

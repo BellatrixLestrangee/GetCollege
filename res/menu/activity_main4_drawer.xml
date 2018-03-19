@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/attendance"
+            android:icon="@drawable/attendance"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/timetable"
+            android:icon="@drawable/time"
+            android:title="Time Table" />
+        <item
+            android:id="@+id/calendar"
+            android:icon="@drawable/calendar"
+            android:title= "Academic Calendar"/>
+        <item
+            android:id="@+id/details"
+            android:icon="@drawable/settings"
+            android:title="My Details" />
+
+
+    </group>
+
+
+
+</menu>
